@@ -1,0 +1,109 @@
+{"id":"001","split":"dev","clause":"The receiving party shall keep all confidential information disclosed by the disclosing party strictly confidential and shall not disclose it to any third party.","label":"CONFIDENTIALITY"}
+{"id":"002","split":"dev","clause":"Neither party shall disclose the other party's proprietary business information to any person except employees who require the information to perform their duties.","label":"CONFIDENTIALITY"}
+{"id":"003","split":"test","clause":"All technical documentation marked as confidential shall be protected from unauthorized disclosure for five years following its receipt.","label":"CONFIDENTIALITY"}
+{"id":"004","split":"test","clause":"The contractor shall not reveal the customer's trade secrets to any third party without prior written authorization.","label":"CONFIDENTIALITY"}
+{"id":"005","split":"test","clause":"Confidential materials received under this agreement may be used solely for performing the services described herein.","label":"CONFIDENTIALITY"}
+{"id":"006","split":"test","clause":"Each party agrees to restrict access to confidential business information to personnel who have a legitimate need to know.","label":"CONFIDENTIALITY"}
+{"id":"007","split":"test","clause":"Upon request, the recipient shall return or destroy all confidential documents obtained from the disclosing party.","label":"CONFIDENTIALITY"}
+{"id":"008","split":"test","clause":"The parties shall maintain the confidentiality of proprietary information received during negotiations and shall not publish such information without consent.","label":"CONFIDENTIALITY"}
+{"id":"009","split":"test","clause":"Employees with access to the client's confidential information must be subject to written confidentiality obligations.","label":"CONFIDENTIALITY"}
+{"id":"010","split":"test","clause":"The supplier shall use reasonable measures to prevent unauthorized persons from accessing confidential information provided by the customer.","label":"CONFIDENTIALITY"}
+
+{"id":"011","split":"dev","clause":"Either party may terminate this agreement by providing thirty days' written notice to the other party.","label":"TERMINATION"}
+{"id":"012","split":"dev","clause":"The agreement shall automatically terminate upon completion of all services specified in the statement of work.","label":"TERMINATION"}
+{"id":"013","split":"test","clause":"Either party may terminate the contract immediately if the other party materially breaches its obligations and fails to cure the breach within fifteen days.","label":"TERMINATION"}
+{"id":"014","split":"test","clause":"The customer may cancel the service agreement at the end of the initial twelve-month term by giving written notice.","label":"TERMINATION"}
+{"id":"015","split":"test","clause":"This agreement shall remain in effect until terminated in accordance with the termination provisions contained herein.","label":"TERMINATION"}
+{"id":"016","split":"test","clause":"The company may terminate the employment arrangement without further obligation if the employee commits a serious contractual violation.","label":"TERMINATION"}
+{"id":"017","split":"test","clause":"Upon termination, each party shall cease using the other party's systems and return any property belonging to that party.","label":"TERMINATION"}
+{"id":"018","split":"test","clause":"Either party may end the agreement for convenience upon sixty days' prior written notice.","label":"TERMINATION"}
+{"id":"019","split":"test","clause":"The license shall expire and terminate automatically if the annual renewal fee is not paid within thirty days after its due date.","label":"TERMINATION"}
+{"id":"020","split":"test","clause":"The parties may terminate this agreement by mutual written consent at any time.","label":"TERMINATION"}
+
+{"id":"021","split":"dev","clause":"The customer shall pay the monthly service fee within thirty days after receiving each invoice.","label":"PAYMENT"}
+{"id":"022","split":"dev","clause":"All invoices issued under this agreement shall be payable in full within fifteen calendar days of receipt.","label":"PAYMENT"}
+{"id":"023","split":"test","clause":"The annual subscription fee for the services shall be five thousand euros, payable at the beginning of each contract year.","label":"PAYMENT"}
+{"id":"024","split":"test","clause":"Late payments shall accrue interest at a rate of one percent per month until the outstanding amount is paid.","label":"PAYMENT"}
+{"id":"025","split":"test","clause":"The customer shall reimburse the supplier for approved expenses within ten business days after submission of supporting receipts.","label":"PAYMENT"}
+{"id":"026","split":"test","clause":"The consulting fee shall be calculated at a rate of one hundred euros for each hour of professional services provided.","label":"PAYMENT"}
+{"id":"027","split":"test","clause":"Payments shall be made by bank transfer to the account specified on the supplier's invoice.","label":"PAYMENT"}
+{"id":"028","split":"test","clause":"The first installment of the purchase price is due upon execution of this agreement.","label":"PAYMENT"}
+{"id":"029","split":"test","clause":"The service provider may suspend services if an undisputed invoice remains unpaid for more than thirty days.","label":"PAYMENT"}
+{"id":"030","split":"test","clause":"Any taxes applicable to the fees charged under this agreement shall be added to the amounts payable by the customer.","label":"PAYMENT"}
+
+{"id":"031","split":"dev","clause":"Neither party shall be liable for indirect, incidental, special, or consequential damages arising from this agreement.","label":"LIABILITY"}
+{"id":"032","split":"dev","clause":"The total liability of either party under this agreement shall not exceed the fees paid by the customer during the twelve months preceding the event giving rise to the claim.","label":"LIABILITY"}
+{"id":"033","split":"test","clause":"Neither party shall be responsible for losses resulting solely from the other party's failure to follow the agreed operating procedures.","label":"LIABILITY"}
+{"id":"034","split":"test","clause":"The supplier's liability for any claim arising from the services shall be limited to direct damages actually proven by the customer.","label":"LIABILITY"}
+{"id":"035","split":"test","clause":"To the maximum extent permitted by law, the provider shall not be liable for lost profits or loss of anticipated revenue.","label":"LIABILITY"}
+{"id":"036","split":"test","clause":"Each party remains responsible for damage caused by its own negligent acts or omissions.","label":"LIABILITY"}
+{"id":"037","split":"test","clause":"The parties agree that neither party shall be liable for punitive damages arising out of the performance of this agreement.","label":"LIABILITY"}
+{"id":"038","split":"test","clause":"A party's aggregate liability under this agreement shall not exceed fifty thousand euros.","label":"LIABILITY"}
+{"id":"039","split":"test","clause":"The service provider shall not be liable for delays caused exclusively by events outside its reasonable control.","label":"LIABILITY"}
+{"id":"040","split":"test","clause":"The limitations of liability in this section shall apply regardless of the legal theory under which a claim is asserted.","label":"LIABILITY"}
+
+{"id":"041","split":"dev","clause":"The supplier shall indemnify and hold the customer harmless from third-party claims arising from the supplier's infringement of intellectual property rights.","label":"INDEMNIFICATION"}
+{"id":"042","split":"dev","clause":"The contractor agrees to defend, indemnify, and hold harmless the client against claims resulting from the contractor's negligent acts.","label":"INDEMNIFICATION"}
+{"id":"043","split":"test","clause":"The vendor shall indemnify the purchaser for reasonable legal expenses incurred in defending a third-party claim caused by the vendor's breach of this agreement.","label":"INDEMNIFICATION"}
+{"id":"044","split":"test","clause":"The service provider shall defend and hold the customer harmless from claims alleging that the services caused bodily injury due to the provider's negligence.","label":"INDEMNIFICATION"}
+{"id":"045","split":"test","clause":"Each party shall indemnify the other against third-party claims arising from its violation of applicable law.","label":"INDEMNIFICATION"}
+{"id":"046","split":"test","clause":"The contractor shall reimburse and defend the company against losses arising from claims brought by the contractor's employees.","label":"INDEMNIFICATION"}
+{"id":"047","split":"test","clause":"The supplier shall assume the defense of any third-party action for which the supplier has an indemnification obligation under this agreement.","label":"INDEMNIFICATION"}
+{"id":"048","split":"test","clause":"The licensee shall indemnify the licensor against costs and damages arising from the licensee's unauthorized use of the licensed materials.","label":"INDEMNIFICATION"}
+{"id":"049","split":"test","clause":"The customer shall be entitled to indemnification for third-party claims caused by the supplier's failure to comply with its contractual obligations.","label":"INDEMNIFICATION"}
+{"id":"050","split":"test","clause":"The manufacturer agrees to defend and indemnify the distributor against claims arising from defects attributable to the manufacturer's products.","label":"INDEMNIFICATION"}
+
+{"id":"051","split":"dev","clause":"All intellectual property created specifically for the customer under this agreement shall be owned by the customer upon payment of the applicable fees.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"052","split":"dev","clause":"The supplier grants the customer a non-exclusive license to use the software during the term of this agreement.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"053","split":"test","clause":"All copyrights in materials developed by the contractor specifically for the project shall be assigned to the customer.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"054","split":"test","clause":"Each party shall retain ownership of all patents, trademarks, and other intellectual property it owned before entering into this agreement.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"055","split":"test","clause":"The licensee may reproduce the licensed software solely for internal business purposes.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"056","split":"test","clause":"Any invention developed solely by the supplier during performance of the project shall remain the supplier's intellectual property.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"057","split":"test","clause":"The customer receives a perpetual, worldwide license to use the deliverables for its internal operations.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"058","split":"test","clause":"Neither party may use the other party's trademarks without prior written permission.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"059","split":"test","clause":"The developer assigns to the company all rights, title, and interest in source code created specifically under the development agreement.","label":"INTELLECTUAL_PROPERTY"}
+{"id":"060","split":"test","clause":"The parties shall cooperate in registering and maintaining patents resulting from jointly developed inventions.","label":"INTELLECTUAL_PROPERTY"}
+
+{"id":"061","split":"dev","clause":"This agreement shall be governed by and construed in accordance with the laws of the State of New York.","label":"GOVERNING_LAW"}
+{"id":"062","split":"dev","clause":"The laws of France shall govern this agreement, without regard to its conflict-of-law principles.","label":"GOVERNING_LAW"}
+{"id":"063","split":"test","clause":"This contract shall be governed exclusively by the laws of the Republic of Tunisia.","label":"GOVERNING_LAW"}
+{"id":"064","split":"test","clause":"The parties agree that the substantive laws of England and Wales shall apply to this agreement.","label":"GOVERNING_LAW"}
+{"id":"065","split":"test","clause":"This agreement and all disputes arising from it shall be interpreted under the laws of the State of California.","label":"GOVERNING_LAW"}
+{"id":"066","split":"test","clause":"The laws of Germany shall govern the validity, interpretation, and enforcement of this contract.","label":"GOVERNING_LAW"}
+{"id":"067","split":"test","clause":"This agreement shall be governed by the applicable laws of Canada.","label":"GOVERNING_LAW"}
+{"id":"068","split":"test","clause":"The parties expressly choose the laws of Singapore to govern their contractual relationship.","label":"GOVERNING_LAW"}
+{"id":"069","split":"test","clause":"The interpretation of this agreement shall be determined according to the laws of the Kingdom of Spain.","label":"GOVERNING_LAW"}
+{"id":"070","split":"test","clause":"The governing law for this agreement shall be the law of the Netherlands.","label":"GOVERNING_LAW"}
+
+{"id":"071","split":"dev","clause":"The processor shall process personal data only on documented instructions from the controller and shall implement appropriate security measures.","label":"DATA_PROTECTION"}
+{"id":"072","split":"dev","clause":"The parties shall comply with all applicable data-protection and privacy laws when processing personal information.","label":"DATA_PROTECTION"}
+{"id":"073","split":"test","clause":"The service provider shall notify the customer without undue delay after discovering a personal data breach.","label":"DATA_PROTECTION"}
+{"id":"074","split":"test","clause":"Personal information collected under this agreement shall be used only for the purposes specified in the privacy notice.","label":"DATA_PROTECTION"}
+{"id":"075","split":"test","clause":"The processor shall delete or return all personal data following termination of the processing services, unless retention is required by law.","label":"DATA_PROTECTION"}
+{"id":"076","split":"test","clause":"Access to personal data shall be restricted to personnel who require such access to perform their assigned duties.","label":"DATA_PROTECTION"}
+{"id":"077","split":"test","clause":"The company shall maintain technical and organizational measures designed to protect personal information against unauthorized access.","label":"DATA_PROTECTION"}
+{"id":"078","split":"test","clause":"The vendor shall assist the customer in responding to legally required requests concerning the rights of individuals whose personal data is processed.","label":"DATA_PROTECTION"}
+{"id":"079","split":"test","clause":"Personal data shall not be transferred to a third country unless the transfer complies with applicable privacy requirements.","label":"DATA_PROTECTION"}
+{"id":"080","split":"test","clause":"The controller shall maintain records of processing activities as required by applicable data-protection legislation.","label":"DATA_PROTECTION"}
+
+{"id":"081","split":"dev","clause":"The supplier warrants that the services will materially conform to the specifications set out in the applicable statement of work.","label":"WARRANTY"}
+{"id":"082","split":"dev","clause":"The manufacturer warrants that the products will be free from material defects in materials and workmanship for twelve months after delivery.","label":"WARRANTY"}
+{"id":"083","split":"test","clause":"The contractor represents and warrants that it has full authority to enter into and perform this agreement.","label":"WARRANTY"}
+{"id":"084","split":"test","clause":"The service provider guarantees that the delivered software will perform substantially in accordance with the documented specifications.","label":"WARRANTY"}
+{"id":"085","split":"test","clause":"The seller warrants that all goods supplied under this agreement are new and unused at the time of delivery.","label":"WARRANTY"}
+{"id":"086","split":"test","clause":"The supplier represents that it possesses all licenses necessary to provide the contracted services.","label":"WARRANTY"}
+{"id":"087","split":"test","clause":"The contractor warrants that its services will be performed in a professional and workmanlike manner.","label":"WARRANTY"}
+{"id":"088","split":"test","clause":"The manufacturer guarantees that the equipment will meet the performance requirements stated in the product specification.","label":"WARRANTY"}
+{"id":"089","split":"test","clause":"Each party represents that entering into this agreement does not violate any other binding obligation of that party.","label":"WARRANTY"}
+{"id":"090","split":"test","clause":"The vendor warrants that the products delivered will conform to the agreed technical requirements.","label":"WARRANTY"}
+
+{"id":"091","split":"dev","clause":"During the term of this agreement, the employee shall not provide substantially similar services to a direct competitor within the agreed geographic area.","label":"NON_COMPETE"}
+{"id":"092","split":"dev","clause":"For twelve months after termination, the consultant shall not operate a competing business within fifty kilometers of the customer's principal office.","label":"NON_COMPETE"}
+{"id":"093","split":"test","clause":"The employee agrees not to work for a competing company in the specified territory during the twelve-month restriction period.","label":"NON_COMPETE"}
+{"id":"094","split":"test","clause":"The consultant shall not establish or participate in a business that directly competes with the client during the restricted period.","label":"NON_COMPETE"}
+{"id":"095","split":"test","clause":"For six months following termination, the executive shall not provide competing services to customers within the defined market.","label":"NON_COMPETE"}
+{"id":"096","split":"test","clause":"The contractor shall refrain from engaging in a competing enterprise within the geographic area identified in Schedule A.","label":"NON_COMPETE"}
+{"id":"097","split":"test","clause":"During the restricted period, the employee shall not accept employment with a business that directly competes with the employer's principal business.","label":"NON_COMPETE"}
+{"id":"098","split":"test","clause":"The former consultant shall not launch or operate a competing service within the territory specified in this agreement for one year.","label":"NON_COMPETE"}
+{"id":"099","split":"test","clause":"The employee agrees that, for the duration of the restriction, it will not perform substantially similar work for a direct competitor.","label":"NON_COMPETE"}
+{"id":"100","split":"test","clause":"The service provider shall not enter into a competing commercial arrangement with the customer's designated clients during the restricted period.","label":"NON_COMPETE"}

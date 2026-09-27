@@ -1,0 +1,4 @@
+model,total_items,correct,wrong,parse_errors,timeout_or_error,accuracy,p50_latency_ms,p95_latency_ms,average_tokens_per_second
+qwen2.5:7b,80,78,2,0,0,0.975,3262.102,3701.477,9.752
+qwen2.5:3b,80,68,10,2,0,0.85,2320.888,2381.965,39.381
+phi3.5:latest,80,77,2,1,0,0.9625,2729.207,3029.1,19.416

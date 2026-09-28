@@ -17,26 +17,24 @@ The task is **legal clause classification**. Given a short contract clause, the 
 
 For example, the clause *“The customer shall pay all invoices within thirty days of receipt”* should be classified as `PAYMENT`.
 
-The benchmark uses automatic exact-match scoring. A response is correct only when it contains exactly one valid category after basic whitespace and case normalization. Explanations, invalid labels, multiple labels, refusals, and errors are counted as incorrect.
+The benchmark uses automatic exact-match scoring. A response is correct only when it contains exactly one valid category. Explanations, invalid labels, multiple labels, refusals, and errors are counted as incorrect.
 
 ## 2. Data and Evaluation
 
-The dataset contains **100 synthetic contract-style clauses**:
+The dataset contains **100 clauses**:
 
 - 20 development items
 - 80 test items
 - 10 categories
 - 10 items per category
 
-Only the 80 test items were used for the final benchmark. The dataset was created specifically for this project and does not contain confidential customer information.
-
+Only the 80 test items were used for the final benchmark.
 Category definitions and labeling rules are documented in `data/labeling_note.md`.
-
-The benchmark uses the same 80 test items for every model. No failed items were removed and no model output was manually corrected.
+The benchmark uses the same 80 test items for every model.
 
 ## 3. Setup and Models
 
-All three models were run locally using **Ollama**, rather than using external API services.
+All three models were run locally using **Ollama**.
 
 | Model | Runtime | Hardware |
 |---|---|---|
@@ -66,78 +64,52 @@ Each model classified the same 80 test items, resulting in 240 total model evalu
 
 The results show a measurable trade-off between classification accuracy and generation speed. `qwen2.5:7b` had the highest measured accuracy in this experiment, while `qwen2.5:3b` had the highest measured token generation rate. `phi3.5:latest` produced accuracy close to the 7B model while having lower latency than the 7B model.
 
-These measurements apply specifically to this dataset, model versions, Ollama configuration, and RTX 3060 hardware.
-
 ## 5. Representative Errors
 
 ### `qwen2.5:7b`
 
 **Item 044**
-
 Expected: `INDEMNIFICATION`
-
 Output: `LIABILITY`
-
 > The service provider shall defend and hold the customer harmless from claims alleging that the services caused bodily injury due to the provider's negligence.
 
 **Item 095**
-
 Expected: `NON_COMPETE`
-
 Output: `TERMINATION`
-
 > For six months following termination, the executive shall not provide competing services to customers within the defined market.
 
 ### `qwen2.5:3b`
 
 **Item 038**
-
 Expected: `LIABILITY`
-
 Output: `PAYMENT`
-
 > A party's aggregate liability under this agreement shall not exceed fifty thousand euros.
 
 **Item 039**
-
 Expected: `LIABILITY`
-
 Output: `TERMINATION`
-
 > The service provider shall not be liable for delays caused exclusively by events outside its reasonable control.
 
 **Item 044**
-
 Expected: `INDEMNIFICATION`
-
 Output: `LIABILITY`
-
 > The service provider shall defend and hold the customer harmless from claims alleging that the services caused bodily injury due to the provider's negligence.
 
 ### `phi3.5:latest`
 
 **Item 044**
-
 Expected: `INDEMNIFICATION`
-
 Output: `WARRANTY`
-
 > The service provider shall defend and hold the customer harmless from claims alleging that the services caused bodily injury due to the provider's negligence.
 
 **Item 086**
-
 Expected: `WARRANTY`
-
 Output: `INTELLECTUAL_PROPERTY`
-
 > The supplier represents that it possesses all licenses necessary to provide the contracted services.
 
 **Item 089**
-
 Expected: `WARRANTY`
-
 Output: `You are a legal clause classification system with advanced`
-
 This last response was counted as a parse error because it did not contain exactly one valid category.
 
 ## 6. Model Selection Considerations
@@ -150,20 +122,14 @@ The measurements provide different trade-offs rather than a single universal res
 
 `phi3.5:latest` recorded 96.25% accuracy, with a p50 latency of 2729 ms and an average generation speed of 19.42 tokens/sec.
 
-Therefore, the appropriate model depends on the application's requirements. A workload that prioritizes measured classification accuracy may place greater importance on the accuracy results, while a latency-sensitive workload may place greater importance on response time and generation speed. If the workload or hardware changes, the benchmark should be repeated before making a deployment decision.
+Therefore, the appropriate model depends on the application's requirements. A workload that prioritizes measured classification accuracy may place greater importance on the accuracy results, while a latency-sensitive workload may place greater importance on response time and generation speed. If the workload or hardware changes.
 
 ## 7. Cost and Scope
 
 This implementation uses three locally hosted Ollama models and does not use external API services or API tokens.
-
 Therefore, API token pricing is not included in this comparison. Hardware and electricity costs are also not estimated because this project focuses on the measured local-model performance.
-
-This is a deliberate deviation from the original API-based cost-analysis requirement.
 
 ## 8. Conclusion
 
 The bake-off successfully established a reproducible evaluation pipeline for comparing three locally hosted LLMs on legal clause classification.
-
 Using the same dataset, prompt, generation settings, parser, and scoring procedure produced measurable differences in accuracy and runtime performance. The results demonstrate why both task accuracy and system performance should be considered when evaluating local LLMs.
-
-The complete per-item results are stored in `results/per_item.csv`, and the aggregated measurements are stored in `results/summary.csv`.

@@ -26,8 +26,6 @@ If we repeated the project, we would first expand the test dataset with more dif
 
 We would also include more examples designed to test strict output formatting. This would make it easier to measure how often a model produces a correct classification but fails the required output format.
 
-The benchmark could also be repeated several times to examine run-to-run variation, although the current configuration uses temperature 0 to reduce generation variability.
-
 Another improvement would be to record additional hardware information, such as GPU utilization and memory usage, during the benchmark. This would provide more context for comparing the local models' runtime characteristics.
 
 ## Main Lesson
